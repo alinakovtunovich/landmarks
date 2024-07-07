@@ -50,6 +50,7 @@
 		A3A6476F2C3AEDED0015912E /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6476E2C3AEDED0015912E /* Collection+.swift */; };
 		A3A647712C3AEE030015912E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A647702C3AEE030015912E /* Profile.swift */; };
 		A3A647732C3AEE190015912E /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A3A647722C3AEE190015912E /* hikeData.json */; };
+		A3A647752C3B046E0015912E /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A647742C3B046E0015912E /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		A3A6476E2C3AEDED0015912E /* Collection+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
 		A3A647702C3AEE030015912E /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A3A647722C3AEE190015912E /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		A3A647742C3B046E0015912E /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 				A3A647672C3AEDBE0015912E /* HikeBadge.swift */,
 				A3A647682C3AEDBE0015912E /* ProfileSummary.swift */,
 				A3A647692C3AEDBE0015912E /* ProfileHost.swift */,
+				A3A647742C3B046E0015912E /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				A38C0EBA2C36B0B7000E626F /* HikeDetail.swift in Sources */,
 				A3A6476F2C3AEDED0015912E /* Collection+.swift in Sources */,
 				A38C0EA52C36A03C000E626F /* HexagonParameters.swift in Sources */,
+				A3A647752C3B046E0015912E /* ProfileEditor.swift in Sources */,
 				A38C0EB22C36AFF7000E626F /* Hike.swift in Sources */,
 				A3A647632C3AED630015912E /* CategoryItem.swift in Sources */,
 				A38C0EAB2C36AA23000E626F /* RotatedBadgeSymbol.swift in Sources */,

@@ -27,9 +27,9 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
             }
+            .navigationBarBackButtonHidden(true)
             .listStyle(.inset)
             .navigationTitle("Featured")
-            .navigationBarBackButtonHidden()
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     NavigationLink(destination: {
@@ -45,7 +45,6 @@ struct CategoryHome: View {
             Text("Select a Landmark")
         }
     }
-    
 }
 
 struct CategoryHome_Previews: PreviewProvider {
